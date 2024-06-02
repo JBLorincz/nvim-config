@@ -73,6 +73,17 @@ let NERDTreeShowHidden=1
 " :CocInstall coc-snippets
 " :CocCommand snippets.edit... FOR EACH FILE TYPE
 
+let g:coc_global_extensions = [
+            \ 'coc-json',
+            \ 'coc-html',
+            \ 'coc-tsserver',
+            \ 'coc-svelte',
+            \ 'coc-solargraph',
+            \ 'coc-rust-analyzer',
+            \ 'coc-java',
+            \ 'coc-css',
+            \ 'coc-clangd',
+            \ ]
 
 
 source ~/.config/nvim/airline.vim
