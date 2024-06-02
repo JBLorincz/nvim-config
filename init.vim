@@ -35,6 +35,7 @@ Plug 'Mofiqul/vscode.nvim'
 Plug 'https://github.com/tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'https://github.com/farmergreg/vim-lastplace'
 
 set encoding=UTF-8
 
