@@ -33,6 +33,9 @@ Plug 'projekt0n/caret.nvim'
 Plug 'EdenEast/nightfox.nvim' " Vim-Plug
 Plug 'Mofiqul/vscode.nvim'
 Plug 'https://github.com/tpope/vim-fugitive'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
 set encoding=UTF-8
 
 call plug#end()
@@ -46,6 +49,7 @@ nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
 
 nmap <F8> :TagbarToggle<CR>
 
+nnoremap <C-m> :Files<CR>
 ":set completeopt-=preview " For No Previews
 
 " If you have vim >=8.0 or Neovim >= 0.1.5
