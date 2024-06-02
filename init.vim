@@ -36,6 +36,7 @@ Plug 'https://github.com/tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'https://github.com/farmergreg/vim-lastplace'
+Plug 'voldikss/vim-floaterm'
 
 set encoding=UTF-8
 
@@ -72,6 +73,7 @@ let NERDTreeShowHidden=1
 source ~/.config/nvim/airline.vim
 source ~/.config/nvim/coc.vim
 source ~/.config/nvim/time_shift.vim
+source ~/.config/nvim/float_term.vim
 
 set updatetime=300
 
