@@ -11,6 +11,7 @@ let g:coc_global_extensions = [
             \ 'coc-java',
             \ 'coc-css',
             \ 'coc-clangd',
+            \ 'coc-pyright',
             \ ]
 
 " GoTo code navigation
